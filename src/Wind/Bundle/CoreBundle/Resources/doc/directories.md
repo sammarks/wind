@@ -12,32 +12,21 @@
 		- SiteName
 			- Theme
 				- SiteTheme
+					- SiteTheme.php (contains the actual site theme class)
                     - Wind.yml (contains information about the bundle)
                     - Resources
-                        - public
-                            - css
-                            - js
-                            - img
-                        - views (if defined as theme, these views override any other ones)
+                        - public ...
+                        - views
                             - WindCore
                                 - Default
                                     - index.html.twig
 			- Bundle
 				- ... custom site bundles ...
 		- Wind (system stuff)
-			- Theme
-				- WindCoreTheme
-					- Wind.yml (contains information about the bundle)
-					- Resources
-						- public
-							- css
-							- js
-							- img
-						- views
-							- WindCore
-								- Default
-									- index.html.twig
 			- Bundle
-				- CoreBundle ...
+				- CoreBundle
+					- Resources
+						- views ...
+						- public ...
 	- vendor ... (system stuff, and third-party bundles)
 	- web ... (system stuff)
