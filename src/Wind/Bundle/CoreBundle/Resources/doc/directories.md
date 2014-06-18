@@ -11,10 +11,14 @@
 	- src
 		- SiteName
 			- Theme
-				- SiteTheme
+				- SiteTheme (themes are the exact same as bundles, except they have additional metadata that identifies them as a theme)
 					- SiteTheme.php (contains the actual site theme class)
                     - Wind.yml (contains information about the bundle)
                     - Resources
+                        - config
+                            - routing.yml (contains information about routes)
+                            - services.yml (contains information about services)
+                            - views.yml (contains information about available views)
                         - public ...
                         - views
                             - WindCore
