@@ -10,18 +10,33 @@
 		- console
 	- src
 		- SiteName
+			- Theme
+				- SiteTheme
+                    - Wind.yml (contains information about the bundle)
+                    - Resources
+                        - public
+                            - css
+                            - js
+                            - img
+                        - views (if defined as theme, these views override any other ones)
+                            - WindCore
+                                - Default
+                                    - index.html.twig
 			- Bundle
 				- ... custom site bundles ...
-				- SiteThemeBundle
+		- Wind (system stuff)
+			- Theme
+				- WindCoreTheme
 					- Wind.yml (contains information about the bundle)
 					- Resources
 						- public
 							- css
 							- js
 							- img
-						- views (if defined as theme, these views override any other ones)
-							-
-		- Wind (system stuff)
+						- views
+							- WindCore
+								- Default
+									- index.html.twig
 			- Bundle
 				- CoreBundle ...
 	- vendor ... (system stuff, and third-party bundles)
