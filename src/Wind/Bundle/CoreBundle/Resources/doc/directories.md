@@ -29,5 +29,5 @@
 		- Blog
 			- src
 				- BlogModule extends WindModule
-	- vendor ...
-	- web ...
+	- vendor ... (system stuff, and third-party plugins)
+	- web ... (system stuff)
