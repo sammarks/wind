@@ -8,26 +8,21 @@
 		- autoload.php
 		- bootstrap.php.cache
 		- console
-	- src (system stuff)
-		- Wind
+	- src
+		- SiteName
+			- Bundle
+				- ... custom site bundles ...
+				- SiteThemeBundle
+					- Wind.yml (contains information about the bundle)
+					- Resources
+						- public
+							- css
+							- js
+							- img
+						- views (if defined as theme, these views override any other ones)
+							-
+		- Wind (system stuff)
 			- Bundle
 				- CoreBundle ...
-	- themes
-		- Base
-		- TestTheme
-			- views
-				- WindCoreBundle
-					- Default
-						- html.html.twig
-						- page.html.twig
-				- page--users.html.twig
-			- assets
-				- styles
-				- scripts
-				- images
-	- modules
-		- Blog
-			- src
-				- BlogModule extends WindModule
-	- vendor ... (system stuff, and third-party plugins)
+	- vendor ... (system stuff, and third-party bundles)
 	- web ... (system stuff)
