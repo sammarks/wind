@@ -1,0 +1,3 @@
+wind_core_homepage:
+    pattern:  /
+    defaults: { _controller: WindCoreBundle:Default:index }

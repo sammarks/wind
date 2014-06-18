@@ -1,0 +1,3 @@
+wind_core:
+    resource: "@WindCoreBundle/Resources/config/routing.yml"
+    prefix: /

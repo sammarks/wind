@@ -1,0 +1,33 @@
+# Wind Directory Structure
+
+	- app (system stuff)
+		- cache
+		- config
+		- logs
+		- AppKernel.php
+		- autoload.php
+		- bootstrap.php.cache
+		- console
+	- src (system stuff)
+		- Wind
+			- Bundle
+				- CoreBundle ...
+	- themes
+		- Base
+		- TestTheme
+			- views
+				- WindCoreBundle
+					- Default
+						- html.html.twig
+						- page.html.twig
+				- page--users.html.twig
+			- assets
+				- styles
+				- scripts
+				- images
+	- modules
+		- Blog
+			- src
+				- BlogModule extends WindModule
+	- vendor ...
+	- web ...
